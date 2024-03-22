@@ -77,6 +77,9 @@ class="parent"
 - Створити і одразу переключитись на гілку
   - `git checkout -B {branch-name}`
 
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
 ## Презентація проекту
 
 https://docs.google.com/document/d/1cboEr4YJlNMf7ZXdGUqnUIuCSa5jrDTDxbK2vdfOv9o/edit
