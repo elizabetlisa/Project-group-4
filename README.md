@@ -39,7 +39,8 @@ class="parent"
    - HTTP `git clone https://github.com/TyronNIKO/Project-group-4.git`
    - SSH `git clone git@github.com:TyronNIKO/Project-group-4.git`
 3. Створіть гілку і перейдіть в неї:
-   `git checkout -B branch-name`
+   - `git checkout -B branch-name`
+
    *Назва гілки може бути будь-яка, але краще використовувати прив’язку до задачі в Trello*
 4. Встанови базові залежності проекту в терміналі командою `npm install`.
 5. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
