@@ -62,7 +62,7 @@
     .reviews-list {
         display: flex;
         flex-direction: row;
-        gap: 16px;
+        column-gap: 16px;
     }
     .reviews-list-item {
         width: 344px;
@@ -92,7 +92,7 @@
         line-height: 0.92;
     }
     .reviews-list {
-        gap: 20px;
+        column-gap: 20px;
     }
     .reviews-list-item {
         width: 370px;
