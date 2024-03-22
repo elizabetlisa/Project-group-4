@@ -256,15 +256,10 @@ up to 1280px*/
   }
 
   .modal-menu-close-btn {
-    position: absolute;
     top: 26px;
     right: 32px;
     width: 60px;
     height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    stroke: var(--background);
   }
   .modal-close-btn-icon {
     width: 20px;
