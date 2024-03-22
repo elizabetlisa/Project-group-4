@@ -25,9 +25,11 @@
 
 Дотримуйтесь загальної стилізації классів відповідно до методології "люля-кебаб", наприклад:
 
-`class="parent"`
-`    class="parent-daughter"`
-`        class="parent-daughter-children"`
+```
+class="parent"
+  class="parent-daughter"
+    class="parent-daughter-children"
+```
 
 ## Підготовка до роботи
 
