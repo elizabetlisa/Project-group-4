@@ -23,6 +23,8 @@ body {
 @media (min-width: 1280px) {
   .container {
     width: 1150px;
+    padding-right: 65px;
+    padding-left: 65px;
   }
 }
 .visually-hidden {
