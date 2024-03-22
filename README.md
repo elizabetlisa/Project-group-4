@@ -62,23 +62,11 @@ class="parent"
 
 ## Команди Git для роботи
 
-- Подивитись актуальну гілку
-  - `git status`
-
-- Подивитись список всіх гілок
-  - `git branch`
-
-- Створити нову гілку
-  - `git branch {branch-name}`
-
-- Переключитись на гілку
-  - `git checkout {branch-name}`
-
-- Створити і одразу переключитись на гілку
-  - `git checkout -B {branch-name}`
-
-
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+  - `git status` - Подивитись актуальну гілку
+  - `git branch` - Подивитись список всіх гілок
+  - `git branch branch-name` - Створити нову гілку
+  - `git checkout branch-name` - Переключитись на гілку
+  - `git checkout -B branch-name` - Створити і одразу переключитись на гілку
 
 ## Презентація проекту
 
