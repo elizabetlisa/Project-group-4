@@ -97,13 +97,15 @@ up to 1280px*/
   border-radius: 10px;
   width: 36px;
   height: 36px;
-  background: transparent;
+  background-color: transparent;
   border: 1px solid;
+  transition: background-color 500ms ease-in-out; /* Should be adjusted */
 }
 
 .header-social-link {
   fill: rgba(12, 12, 12, 0.85);
   border-color: rgba(91, 91, 91, 0.1);
+  transition: fill 500ms ease-in-out; /* Should be adjusted */
 }
 
 .header-social-link:hover,
@@ -232,6 +234,7 @@ up to 1280px*/
 .modal-menu-social-link {
   border-color: rgba(251, 251, 251, 0.1);
   fill: var(--background);
+  transition: fill 500ms ease-in-out; /* Should be adjusted */
 }
 
 .modal-menu-social-link:hover,
