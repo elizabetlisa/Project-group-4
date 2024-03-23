@@ -180,7 +180,12 @@ up to 1280px*/
   width: 200px;
   transform: translateX(100%);
   background-color: var(--main);
-  background-image: url(/img/modal-bg/modal-bg-mobile.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(12, 12, 12, 0.92),
+      rgba(12, 12, 12, 0.92)
+    ),
+    url(/img/modal-bg/modal-bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -247,7 +252,12 @@ up to 1280px*/
 @media only screen and (min-width: 768px) {
   .modal-menu {
     width: 330px;
-    background-image: url(/img/modal-bg/modal-bg-tablet.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)
+      ),
+      url(/img/modal-bg/modal-bg-tablet.jpg);
   }
 
   .modal-menu-container {
@@ -270,19 +280,29 @@ up to 1280px*/
   }
 }
 
-@media (min-device-pixel-ratio: 2) {
-  .modal-menu {
-    background-image: url(/img/modal-bg/modal-bg-mobile@2x.jpg);
-  }
-  @media screen and (min-width: 768px) {
-    .modal-menu {
-      background-image: url(/img/modal-bg/modal-bg-tablet@2x.jpg);
-    }
-  }
-}
-
 @media only screen and (min-width: 1280px) {
   .modal-menu {
     display: none;
+  }
+}
+
+@media (min-device-pixel-ratio: 2) {
+  .modal-menu {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)
+      ),
+      url(/img/modal-bg/modal-bg-mobile@2x.jpg);
+  }
+  @media screen and (min-width: 768px) {
+    .modal-menu {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(12, 12, 12, 0.92),
+          rgba(12, 12, 12, 0.92)
+        ),
+        url(/img/modal-bg/modal-bg-tablet@2x.jpg);
+    }
   }
 }
