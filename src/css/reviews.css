@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin: auto;
 }
 .reviews-tittle {
     color: #0C0C0C;
@@ -53,6 +54,7 @@
 @media screen and (min-width:768px) {
     .container-reviews {
         gap: 40px;
+    
     }
     .reviews-tittle {
         font-size: 48px;
@@ -60,7 +62,7 @@
     }
     .reviews-list {
         flex-direction: row;
-        row-gap: 16px;
+        gap: 16px;
     }
     .reviews-list-item {
         width: 344px;
