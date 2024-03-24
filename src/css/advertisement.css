@@ -1,0 +1,108 @@
+.adv-container {
+  background-color: #0c0c0c;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/img/img_advertisement/adv_img_mobile@1.png);
+  border-radius: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.adv-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding: 60px 28px;
+}
+
+.adv-btn {
+  background-color: #d9d9d9;
+  text-align: center;
+  color: #fbfbfb;
+  margin-left: 28px;
+  min-width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .adv-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_mobile@2.png);
+  }
+}
+
+/* ======== Tablet ======== */
+
+@media only screen and (min-width: 768px) {
+  .adv-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_tab@1.png);
+  }
+
+  .adv-text {
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding: 80px 64px 32px;
+    max-width: 576px;
+  }
+
+  .adv-btn {
+    background-color: #0c0c0c;
+    text-align: center;
+    color: #fbfbfb;
+    margin-left: 64px;
+    margin-bottom: 80px;
+    transition: background-color 250ms linear;
+  }
+
+  .adv-btn:hover,
+  .adv-btn:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279) and (min-resolution: 192dpi) {
+  .adv-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_tab@2.png);
+  }
+}
+
+/* ========/ Tablet ======== */
+
+/* ======= Desktop ======= */
+
+@media only screen and (min-width: 1280px) {
+  .adv-container {
+    max-width: 1150px;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_desk@1.png);
+    padding: 0;
+  }
+
+  .adv-text {
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding: 83px 80px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .adv-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_desk@2.png);
+  }
+}
+
+/* =======/ Desktop ======= */
