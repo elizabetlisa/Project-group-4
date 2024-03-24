@@ -8,6 +8,9 @@ body {
   padding-right: 20px;
   padding-left: 20px;
 }
+section:not(:last-child) {
+    margin-bottom: 60px;
+}
 @media (min-width: 375px) {
   .container {
     width: 375px;
@@ -19,6 +22,9 @@ body {
     padding-right: 32px;
     padding-left: 32px;
   }
+  section:not(:last-child) {
+    margin-bottom: 80px;
+}
 }
 @media (min-width: 1280px) {
   .container {
@@ -26,6 +32,9 @@ body {
     padding-right: 65px;
     padding-left: 65px;
   }
+  section:not(:last-child) {
+    margin-bottom: 100px;
+}
 }
 .visually-hidden {
   position: absolute;
