@@ -74,6 +74,8 @@ class="parent"
   - `git checkout branch-name` - Переключитись на гілку
   - `git checkout -B branch-name` - Створити і одразу переключитись на гілку
   - `git branch -D branch-name` - Видалити гілку
+  - `git pull` -  Отримати оновлення в робочу гілку
+  - `git merge main` -  Оновити робочу гілку з гілки main
 
 ## Презентація проекту
 
