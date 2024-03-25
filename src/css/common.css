@@ -1,5 +1,5 @@
 body {
-    font-family: var(--font-family);
+  font-family: var(--font-family);
 }
 .container {
   width: 100%;
@@ -7,6 +7,9 @@ body {
   margin-left: auto;
   padding-right: 20px;
   padding-left: 20px;
+}
+section:not(:last-child) {
+  margin-bottom: 60px;
 }
 @media (min-width: 375px) {
   .container {
@@ -19,12 +22,18 @@ body {
     padding-right: 32px;
     padding-left: 32px;
   }
+  section:not(:last-child) {
+    margin-bottom: 80px;
+  }
 }
 @media (min-width: 1280px) {
   .container {
     width: 1150px;
     padding-right: 65px;
     padding-left: 65px;
+  }
+  section:not(:last-child) {
+    margin-bottom: 100px;
   }
 }
 .visually-hidden {

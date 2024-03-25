@@ -1,0 +1,133 @@
+/*-------------------hero styls----------------------*/
+
+.first-section {
+  width: 100%;
+  padding-top: 60px;
+}
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+}
+.hero-title-container {
+  margin-bottom: 28px;
+  width: 335px;
+}
+.first-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+
+.first-title-color {
+  color: #3350e9;
+}
+
+.text-hero {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-image-link-container {
+  position: relative;
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.list-image-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.iteam-list-hero {
+  margin-right: -12px;
+}
+
+.link-hero {
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .container-hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 11px;
+    row-gap: 40px;
+  }
+  .first-section {
+    padding-top: 80px;
+  }
+  .hero-title-container {
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .hero-image-link-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .first-title {
+    font-size: 70px;
+    line-height: 0.86;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+  }
+
+  .text-hero {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .link-hero {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .hero-image-link-container {
+    width: 136px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+
+  .hero-title-container {
+    width: 597px;
+  }
+  .first-title {
+    font-size: 72px;
+    line-height: 0.87;
+  }
+
+  .hero-image-link-container {
+    width: 146px;
+  }
+}
