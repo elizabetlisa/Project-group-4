@@ -1,0 +1,247 @@
+.footer-container {
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: var(--main);
+  padding: 40px 28px 28px 28px;
+}
+
+.footer-logo {
+  font-size: 16px;
+  color: var(--background);
+}
+
+.footer-social-link {
+  width: 34px;
+  height: 34px;
+}
+
+.logo-socials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logo-socials-tel-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 92px;
+}
+
+.footer-tel {
+  display: block;
+  text-align: center;
+  max-width: 152px;
+  max-height: 44px;
+  padding: 14px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: transparent;
+  color: var(--background);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  background-color: var(--background);
+  color: var(--main);
+}
+
+.footer-text {
+  max-width: 279px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--background);
+}
+
+.nav-address-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+  margin-bottom: 24px;
+}
+
+.footer-navigation-links {
+  display: flex;
+}
+
+.footer-address {
+  max-width: 83px;
+}
+
+.company-info-terms-privacy-policy-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-navigation-link,
+.footer-address-link {
+  font-style: normal;
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--background);
+}
+
+.company-info-terms-privacy-policy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.terms-privacy-list {
+  display: flex;
+  gap: 20px;
+}
+
+.company-info,
+.terms-privacy-link {
+  display: block;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+  .logo-socials-container {
+    margin-bottom: 20px;
+  }
+  .footer-navigation-links {
+    max-width: 147px;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 8px;
+  }
+  .footer-tel {
+    margin-bottom: 40px;
+  }
+
+  .company-info {
+    margin-bottom: 8px;
+  }
+}
+
+/*==============================Tablet======================*/
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    padding-block: 40px 28px;
+    padding-inline: 40px 40px;
+  }
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-social-link {
+    width: 36px;
+    height: 36px;
+  }
+  .footer-social-link .social-link-icon {
+    width: 20px;
+    height: 20px;
+  }
+  /* .logo-socials-tel-text-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    max-height: 262px;
+    row-gap: 86px;
+    margin-bottom: 92px;
+  } */
+  .logo-socials-tel-text-container {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+  }
+
+  .footer-tel {
+    max-width: 160px;
+    max-height: 48px;
+    padding-block: 15px;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-text {
+    max-width: 524px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.14;
+  }
+
+  .footer-navigation-links {
+    gap: 19px;
+  }
+  .nav-address-container {
+    /* gap: 62px; */
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+  }
+  .footer-address {
+    max-width: 162px;
+  }
+  .footer-address-link,
+  .footer-navigation-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .company-info-terms-privacy-policy-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .terms-privacy-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .company-info,
+  .terms-privacy-link {
+    text-align: right;
+
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .logo-socials-container {
+    margin-right: auto;
+  }
+  .logo-socials-tel-text-container {
+    flex-wrap: wrap;
+    row-gap: 86px;
+    max-height: 262px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .inner-container {
+    width: 1280px;
+    padding-inline: 32px;
+  }
+
+  .logo-socials-tel-text-container {
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 126px;
+  }
+
+  .footer-tel {
+    order: 1;
+  }
+  .footer-navigation-links {
+    gap: 40px;
+  }
+}
