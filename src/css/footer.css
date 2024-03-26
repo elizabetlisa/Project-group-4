@@ -45,7 +45,7 @@ img {
     display: none;
 }
 
-.container {
+.footer-container {
     /* width: 100%; */
     max-width: 375px;
     box-sizing: border-box;
@@ -213,7 +213,7 @@ img {
 
 
 @media only screen and (min-width: 768px) {
-    .container {
+    .footer-container {
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
@@ -347,7 +347,7 @@ img {
 }
 
 @media only screen and (min-width: 1150px) {
-    .container {
+    .footer-container {
         max-width: 1214px;
     }
 
