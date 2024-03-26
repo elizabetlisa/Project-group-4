@@ -100,10 +100,20 @@
     display: flex;
     padding-left: 49px;
 }
+.button-link{
+    color: #FBFBFB;
+}
+.footer-navigation .menu-link{
+    color: #FBFBFB;
+}
+.footer-svg{
+    fill: white;
+}
 
 .footer-navigation {
     display: table;
     margin-bottom: 24px;
+    display: flex;
 }
 
 .footer-navigation .menu {
@@ -206,12 +216,23 @@
         background-color: #fbfbfb;
         transition: background-color 250ms linear 250ms;
     }
-
+    .button-link-tablet{
+        color: #FBFBFB;
+    }
+    .button-link-desktop{
+        color: #FBFBFB;
+    }
+    .last-text-tablet,
+    .last-link-tablet{
+        color: rgba(251, 251, 251, 0.5);
+    }
     .tel-button-tablet:hover .button-link-tablet {
         color: #0c0c0c;
         transition: color 250ms linear 250ms;
     }
-
+    .tel-button .button-link{
+        color: #FBFBFB;
+    }
     .menu {
         display: flex;
     }
@@ -266,7 +287,7 @@
     }
 
     .address-tablet {
-        width: 212px;
+        width: 182px;
     }
 
     .stripe-tablet:after {
@@ -288,10 +309,6 @@
     .last-list-tablet {
         display: flex;
         margin-bottom: 28px;
-    }
-
-    .last-text-tablet {
-        margin-right: 159px;
     }
 
     .last-list-tablet {
