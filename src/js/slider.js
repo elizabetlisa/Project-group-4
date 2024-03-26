@@ -1,23 +1,28 @@
 export default function slider(selector) {
-  const swiper = new Swiper(selector, {
-    // Optional parameters
-    slidesPerView: 3,
-    spaceBetween: 30,
-
-    // If we need pagination
+  var swiper = new Swiper(selector, {
+    innerWidth: 320,
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 16,
     pagination: {
-      el: `${selector}-pagination`,
+      el: '.swiper-pagination',
+      clickable: true,
     },
-
-    // Navigation arrows
-    navigation: {
-      nextEl: `${selector}-button-next`,
-      prevEl: `${selector}-button-prev`,
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-      el: `${selector}-scrollbar`,
+    breakpoints: {
+      375: {
+        paceBetween: 16,
+        loop: true,
+        slidesPerView: 1,
+      },
+      768: {
+        spaceBetween: 16,
+        loop: true,
+        slidesPerView: 2,
+      },
+      1280: {
+        spaceBetween: 20,
+        slidesPerView: 3,
+      },
     },
   });
 }
