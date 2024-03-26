@@ -64,7 +64,6 @@
 
   .adv-btn {
     background-color: rgba(0, 0, 0, 0);
-    text-align: center;
     color: #fbfbfb;
     transition: background-color 250ms linear;
   }
