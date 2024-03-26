@@ -101,6 +101,7 @@
   .text-hero {
     font-size: 16px;
     line-height: 1.25;
+    width: 480px;
   }
 
   .link-hero {
