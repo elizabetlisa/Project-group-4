@@ -20,3 +20,5 @@ var swiper = new Swiper(".mySwiper", {
       }
 });
     
+import modal from './js/modal';
+import slider from './js/slider';

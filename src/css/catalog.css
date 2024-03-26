@@ -1,0 +1,137 @@
+.catalog-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 375px;
+}
+.catalog-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .catalog-title {
+    font-size: 48px;
+    line-height: 0.91667;
+  }
+}
+
+.catalog-list {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 767px) {
+  .catalog-list {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .catalog-list {
+    column-gap: 23px;
+    row-gap: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 100%;
+  background: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-item {
+    width: calc((100% - 23px) / 2);
+    height: 414px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog-item {
+    width: calc((100% - 46px) / 3);
+    height: 414px;
+  }
+}
+.catalog-image {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1280) {
+  .catalog-image {
+    padding-top: 30px;
+    padding-bottom: 24px;
+  }
+}
+
+.catalog-name {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-name {
+    font-size: 20px;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.catalog-price {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+  margin: 0;
+}
+.catalog-text {
+  padding: 0px 28px 24px;
+}
+
+.catalog-btn {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  cursor: pointer;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .catalog-btn {
+    display: none;
+  }
+}

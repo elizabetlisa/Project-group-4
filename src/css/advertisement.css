@@ -1,0 +1,120 @@
+.adv-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 28px;
+  background-color: #0c0c0c;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/img/img_advertisement/adv_img_mobile@1.png);
+  border-radius: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 60px 28px;
+}
+
+.adv-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.adv-text-item {
+  color: #d9d9d9;
+}
+
+.adv-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  text-align: center;
+  color: #fbfbfb;
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+}
+
+@media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .adv-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_mobile@2.png);
+  }
+}
+
+/* ======== Tablet ======== */
+
+@media only screen and (min-width: 768px) {
+  .adv-container {
+    flex-direction: column;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_tab@1.png);
+  }
+
+  .adv-text {
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+
+    max-width: 388px;
+  }
+
+  .adv-btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fbfbfb;
+    transition: background-color 250ms linear;
+  }
+
+  .adv-btn:hover,
+  .adv-btn:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279) and (min-resolution: 192dpi) {
+  .adv-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_tab@2.png);
+  }
+}
+
+/* ========/ Tablet ======== */
+
+/* ======= Desktop ======= */
+
+@media only screen and (min-width: 1280px) {
+  .adv-container {
+    padding: 83px 80px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_desk@1.png);
+  }
+
+  .adv-text {
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+  }
+
+  .adv-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .adv-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/img/img_advertisement/adv_img_desk@2.png);
+  }
+}
+
+/* =======/ Desktop ======= */
