@@ -133,10 +133,6 @@ img {
     margin-bottom: 92px;
 }
 
-/* .navigation {
-    gap: ;
-} */
-
 .address {
     margin-left: auto;
     color: #FBFBFB;
@@ -144,12 +140,12 @@ img {
     padding-left: 49px;
 }
 
-.navigation {
+.footer-navigation {
     display: table;
     margin-bottom: 24px;
 }
 
-.navigation .menu {
+.footer-navigation .menu {
     gap: 16px;
     padding-bottom: 8px;
 }
@@ -162,7 +158,7 @@ img {
     display: flex;
 }
 
-.navigation::after {
+.footer-navigation::after {
     content: '';
     background-color: white
 }
@@ -259,7 +255,7 @@ img {
         display: flex;
     }
 
-    .navigation {
+    .footer-navigation {
         display: none;
     }
 
