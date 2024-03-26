@@ -302,7 +302,6 @@
         display: none;
     }
 }
-
 @media only screen and (min-width: 1150px) {
     .footer-container {
         max-width: 1214px;

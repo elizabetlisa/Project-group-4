@@ -1,24 +1,24 @@
-.about-us{
+/* .about-us{
     width: 1280px;
     height: 532px;
     gap: 40px;
     padding: 0px, 65px, 0px, 65px;
-}
+} */
 @media screen and (min-width:1280px) {
-    
+
 }
 .view-catalog-button{
-    width: 160px;
-height: 48px;
 top: 404px;
 left: 60px;
 gap: 0px;
-opacity: 0px;
+    width: 160px;
+height: 48px;
 background-color: rgba(51, 80, 233, 1);
-font-family: var(--font-family);
-font-size: 14px;
+color: rgba(251, 251, 251, 1);
 font-weight: 500;
+font-size: 14px;
+font-family: var(--font-family);
 line-height: 18px;
 text-align: center;
-color: rgba(251, 251, 251, 1);
+opacity: 0px;
 }
